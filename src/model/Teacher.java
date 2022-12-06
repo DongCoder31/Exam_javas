@@ -29,7 +29,7 @@ public class Teacher extends Person{
     }
 
     @Override
-    public void inputDocument(List<Person> personList) {
+    public void inputPerson(List<Person> personList) {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         super.inputDocument(personList);
         this.salary = Validate.getDouble(br, "Enter salary: ");
