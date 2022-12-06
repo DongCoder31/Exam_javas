@@ -31,7 +31,7 @@ public class Student extends Person{
     }
 
     @Override
-    public void inputDocument(List<Person> personList) {
+    public void inputPerson(List<Person> personList) {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         super.inputDocument(personList);
         this.batch = Validate.getString(br,"Enter bacth: ");
