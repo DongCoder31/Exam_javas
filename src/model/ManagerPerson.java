@@ -30,7 +30,7 @@ public class ManagerPerson implements IPerson {
             case 0:
                 System.out.println("Enter Information student:");
                 Person student = new Student();
-                student.inputDocument(personList);
+                student.inputPerson(personList);
                 personList.add(student);
 
                 System.out.println("Succsesfunlly add student.");
@@ -39,7 +39,7 @@ public class ManagerPerson implements IPerson {
             case 1:
                 System.out.println("Enter Information teach:");
                 Person teacher = new Teacher();
-                teacher.inputDocument(personList);
+                teacher.inputPerson(personList);
                 personList.add(teacher);
                 System.out.println("Succsesfunlly add teacher.");
                 break;
