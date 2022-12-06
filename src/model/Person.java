@@ -32,7 +32,7 @@ public class Person {
                 "address= " + address + "\t";
     }
 
-    public void inputDocument(List<Person> personList){
+    public void inputPerson(List<Person> personList){
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         this.id = (personList.size() > 0) ? (personList.size() + 1) : 1;
         this.name = Validate.getString(br, "Enter  name: ");
